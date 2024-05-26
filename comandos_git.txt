@@ -1,0 +1,10 @@
+git --version
+git config --global user.name "Alexander Villamil J"
+git config --global user.email didier.villamil@cun.edu.co
+git config --list
+git config user.name
+git config user.email
+git init
+git status
+git add . 
+git add --all
