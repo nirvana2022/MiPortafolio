@@ -1,10 +1,12 @@
-git --version
-git config --global user.name "Alexander Villamil J"
-git config --global user.email didier.villamil@cun.edu.co
-git config --list
-git config user.name
-git config user.email
-git init
-git status
-git add . 
-git add --all
+git --version    // Ver si git esta instalado
+git config --global user.name "Alexander Villamil J"     // Configurar usuario en git
+git config --global user.email didier.villamil@cun.edu.co    // Configurar correo en git
+git config --list  // Ver configuración de git
+git config user.name  // Ver nombre de usuario configurado
+git config user.email  // Ver correo de usuario configurado
+git init // Iniciar un repositorio de git dentro de una carpeta
+git status  // Verificar el estado de nuestros archivos en el proyecto
+git add . // Añadir archivos modificados para hacer commit
+git add --all // Añadir archivos modificados para hacer commit
+git commit -m "Subir portafolio y aprendizaje git" // Subir archivos al repositorio local
+git log // Ver commits cargados en el proyecto
