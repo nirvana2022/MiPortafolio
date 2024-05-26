@@ -10,4 +10,7 @@ git add . // Añadir archivos modificados para hacer commit
 git add --all // Añadir archivos modificados para hacer commit
 git commit -m "Subir portafolio y aprendizaje git" // Subir archivos al repositorio local
 git log // Ver commits cargados en el proyecto
-git remote add origin https://github.com/nirvana2022/MiPortafolio.git
+git remote add origin https://github.com/nirvana2022/MiPortafolio.git  // añadir un repositorio en github a nuestro repositorio
+git remote -v  // ver si tenemos un repositorio en git hub
+git push origin master // enviar cambios de nuestro repositorio local a nuestro repositorio remoto
+git pull origin master // para halar los cambios del repositorio remoto
